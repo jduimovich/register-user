@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  namespace: default
+  name: jduimovich
+spec:
+  profile:
+    displayName: John Duimovich
+    picture: https://gravatar.com/jduimovich
+  memberOf:
+    - engineering
